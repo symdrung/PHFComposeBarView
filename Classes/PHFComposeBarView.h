@@ -1,5 +1,10 @@
 #import <UIKit/UIKit.h>
 
+//! Project version number for PHFComposeBarView.
+FOUNDATION_EXPORT double PHFComposeBarViewVersionNumber;
+
+//! Project version string for PHFComposeBarView.
+FOUNDATION_EXPORT const unsigned char PHFComposeBarViewVersionString[];
 
 // Height of the view when text view is empty. Ideally, you should use this in
 // -initWithFrame:.

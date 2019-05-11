@@ -8,18 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		544F909F2286B278005BB3DC /* PHFComposeBarView_Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 544F90972286B278005BB3DC /* PHFComposeBarView_Button.m */; };
-		544F90A02286B278005BB3DC /* PHFComposeBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 544F90982286B278005BB3DC /* PHFComposeBarView.h */; };
+		544F90A02286B278005BB3DC /* PHFComposeBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 544F90982286B278005BB3DC /* PHFComposeBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		544F90A12286B278005BB3DC /* PHFComposeBarView_TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 544F90992286B278005BB3DC /* PHFComposeBarView_TextView.m */; };
-		544F90A22286B278005BB3DC /* PHFDelegateChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 544F909A2286B278005BB3DC /* PHFDelegateChain.h */; };
-		544F90A32286B278005BB3DC /* PHFComposeBarView_Button.h in Headers */ = {isa = PBXBuildFile; fileRef = 544F909B2286B278005BB3DC /* PHFComposeBarView_Button.h */; };
+		544F90A22286B278005BB3DC /* PHFDelegateChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 544F909A2286B278005BB3DC /* PHFDelegateChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		544F90A32286B278005BB3DC /* PHFComposeBarView_Button.h in Headers */ = {isa = PBXBuildFile; fileRef = 544F909B2286B278005BB3DC /* PHFComposeBarView_Button.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		544F90A42286B278005BB3DC /* PHFComposeBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 544F909C2286B278005BB3DC /* PHFComposeBarView.m */; };
 		544F90A52286B278005BB3DC /* PHFDelegateChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 544F909D2286B278005BB3DC /* PHFDelegateChain.m */; };
-		544F90A62286B278005BB3DC /* PHFComposeBarView_TextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 544F909E2286B278005BB3DC /* PHFComposeBarView_TextView.h */; };
+		544F90A62286B278005BB3DC /* PHFComposeBarView_TextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 544F909E2286B278005BB3DC /* PHFComposeBarView_TextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		544F908B2286B0E0005BB3DC /* PHFComposeBarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PHFComposeBarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		544F908F2286B0E0005BB3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = PHFComposeBarView/Info.plist; sourceTree = "<group>"; };
 		544F90972286B278005BB3DC /* PHFComposeBarView_Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHFComposeBarView_Button.m; sourceTree = "<group>"; };
 		544F90982286B278005BB3DC /* PHFComposeBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHFComposeBarView.h; sourceTree = "<group>"; };
 		544F90992286B278005BB3DC /* PHFComposeBarView_TextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHFComposeBarView_TextView.m; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		544F909C2286B278005BB3DC /* PHFComposeBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHFComposeBarView.m; sourceTree = "<group>"; };
 		544F909D2286B278005BB3DC /* PHFDelegateChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHFDelegateChain.m; sourceTree = "<group>"; };
 		544F909E2286B278005BB3DC /* PHFComposeBarView_TextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHFComposeBarView_TextView.h; sourceTree = "<group>"; };
+		54D29E3C2286FA8F002A0BC6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +44,8 @@
 		544F90812286B0E0005BB3DC = {
 			isa = PBXGroup;
 			children = (
+				54D29E3A2286FA8F002A0BC6 /* PHFComposeBarView */,
 				544F90962286B278005BB3DC /* Classes */,
-				544F908F2286B0E0005BB3DC /* Info.plist */,
 				544F908C2286B0E0005BB3DC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +71,14 @@
 				544F909E2286B278005BB3DC /* PHFComposeBarView_TextView.h */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		54D29E3A2286FA8F002A0BC6 /* PHFComposeBarView */ = {
+			isa = PBXGroup;
+			children = (
+				54D29E3C2286FA8F002A0BC6 /* Info.plist */,
+			);
+			path = PHFComposeBarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
